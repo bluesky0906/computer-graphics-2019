@@ -6,3 +6,6 @@ png/
 
 # jpgファイル
 *.jpg
+
+# ~/src/*.classファイル
+src/*.class
