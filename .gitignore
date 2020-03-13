@@ -1,0 +1,8 @@
+# jpgフォルダ
+jpg/
+
+# pngフォルダ
+png/
+
+# jpgファイル
+*.jpg
