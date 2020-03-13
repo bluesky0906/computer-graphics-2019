@@ -36,7 +36,6 @@ public class Character {
     // 書き込む
     MyImage img = VirtualStudio.execute(images, frame, coordinate);
 
-
     return img;
   }
 }
