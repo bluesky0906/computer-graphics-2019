@@ -8,6 +8,14 @@ import java.util.ArrayList;
 
 public class PngToJpeg {
   static void execute (String path, String path2) {
+    // フォルダを作る
+    File newdir = new File(path2);
+    if (!newdir.exists()) {
+      if (!newdir.mkdir()) {
+        System.out.println("Can't make directory");
+        System.exit(1);
+      }
+    }
     List<String> names = read(path);
     for(int i=0; i<names.size(); i++) {
       try {
